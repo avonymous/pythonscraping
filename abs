@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abs関数</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        p {
+            color: #343A40;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>abs()関数</h1>
+
+<p>
+    Pythonの<code>abs</code>関数は、与えられた数値の絶対値を返します。絶対値はその数値が負であれば正に、正であればそのままです。
+</p>
+
+<p>
+    <strong>構文:</strong>
+    <code>abs(x)</code>
+</p>
+
+<p>
+    <strong>引数:</strong>
+    <code>x</code> - 絶対値を取得したい数値
+</p>
+
+<p>
+    <strong>戻り値:</strong>
+    <code>x</code> の絶対値
+</p>
+
+<p>
+    例えば、<code>abs(-5)</code>は<code>5</code>を返し、<code>abs(3)</code>は<code>3</code>を返します。
+</p>
+
+<p>
+    <strong>使い方の例:</strong>
+    <pre>
+        <code>
+# 数値の絶対値を取得する
+result = abs(-5)
+print(result)  # 出力: 5
+        </code>
+    </pre>
+</p>
+
+</body>
+</html>
